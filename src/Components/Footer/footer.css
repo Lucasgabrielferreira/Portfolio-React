@@ -1,0 +1,29 @@
+.footer {
+    background-color: white;
+    padding: 20px 0;
+    color: black;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: blue;
+  }
+  
+  .copy-right {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
