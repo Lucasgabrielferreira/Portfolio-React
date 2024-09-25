@@ -1,6 +1,6 @@
 .header{
     display: flex;
-    background-color: white;
+    background-color: #040e1e ;
     justify-content: space-between;
     flex: 1;
     padding: 12px;
@@ -9,7 +9,7 @@
 }
 
 .menu{
-    background-color: white ;
+    background-color:#040e1e ;
     display: flex;
     flex: 1;
     justify-content: flex-end;
@@ -30,7 +30,7 @@
 .logo{
     display: flex;
     font-size: 36px;
-    color:blue;
+    color:#58a6ff;
     font-weight: 800;
 }
 
