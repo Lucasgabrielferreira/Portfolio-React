@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/Lucasgabrielferreira/Portfolio-React/static/css/main.69fe9590.css",
-    "main.js": "/Lucasgabrielferreira/Portfolio-React/static/js/main.fcca5cfd.js",
-    "static/js/453.1407b060.chunk.js": "/Lucasgabrielferreira/Portfolio-React/static/js/453.1407b060.chunk.js",
-    "static/media/202409200955.mp4": "/Lucasgabrielferreira/Portfolio-React/static/media/202409200955.6056d481773001185f41.mp4",
-    "static/media/instagram.png": "/Lucasgabrielferreira/Portfolio-React/static/media/instagram.e719d8b29f452a16302d.png",
-    "static/media/gmail.png": "/Lucasgabrielferreira/Portfolio-React/static/media/gmail.26c40547e3a5cceca652.png",
-    "static/media/github.png": "/Lucasgabrielferreira/Portfolio-React/static/media/github.05f6c17b8cd04c28456f.png",
-    "static/media/linkedin.png": "/Lucasgabrielferreira/Portfolio-React/static/media/linkedin.f249b38224ca41a0b909.png",
-    "index.html": "/Lucasgabrielferreira/Portfolio-React/index.html",
-    "main.69fe9590.css.map": "/Lucasgabrielferreira/Portfolio-React/static/css/main.69fe9590.css.map",
-    "main.fcca5cfd.js.map": "/Lucasgabrielferreira/Portfolio-React/static/js/main.fcca5cfd.js.map",
-    "453.1407b060.chunk.js.map": "/Lucasgabrielferreira/Portfolio-React/static/js/453.1407b060.chunk.js.map"
+    "main.css": "/Portfolio-React/static/css/main.69fe9590.css",
+    "main.js": "/Portfolio-React/static/js/main.eaa3214a.js",
+    "static/js/453.1407b060.chunk.js": "/Portfolio-React/static/js/453.1407b060.chunk.js",
+    "static/media/202409200955.mp4": "/Portfolio-React/static/media/202409200955.6056d481773001185f41.mp4",
+    "static/media/instagram.png": "/Portfolio-React/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/gmail.png": "/Portfolio-React/static/media/gmail.26c40547e3a5cceca652.png",
+    "static/media/github.png": "/Portfolio-React/static/media/github.05f6c17b8cd04c28456f.png",
+    "static/media/linkedin.png": "/Portfolio-React/static/media/linkedin.f249b38224ca41a0b909.png",
+    "index.html": "/Portfolio-React/index.html",
+    "main.69fe9590.css.map": "/Portfolio-React/static/css/main.69fe9590.css.map",
+    "main.eaa3214a.js.map": "/Portfolio-React/static/js/main.eaa3214a.js.map",
+    "453.1407b060.chunk.js.map": "/Portfolio-React/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69fe9590.css",
-    "static/js/main.fcca5cfd.js"
+    "static/js/main.eaa3214a.js"
   ]
 }
