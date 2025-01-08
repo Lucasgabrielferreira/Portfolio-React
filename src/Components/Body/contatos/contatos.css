@@ -191,6 +191,35 @@ textarea.form-input::-webkit-resizer {
   background: #0056b3;
 }
 
+.success-message {
+  background-color: #d4edda;
+  color: #155724;
+  padding: 15px;
+  margin-top: 20px;
+  border: 1px solid #c3e6cb;
+  border-radius: 5px;
+}
+
+.success-message p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.form-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.form-btn {
+  display: flex;
+  align-items: center;
+}
+
+.form-btn ion-icon {
+  margin-right: 10px;
+}
+
 /* Tornando o formulário responsivo para telas menores */
 @media (max-width: 768px) {
   .contact-form {

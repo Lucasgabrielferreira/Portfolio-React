@@ -1,13 +1,15 @@
 export const SocialData=[
     {
-        platform:"GitHub",
+        platform: "GitHub",
         link:"https://github.com/Lucasgabrielferreira/",
+        target: "_blank", 
         icon: require("../../assets/icons/github.png"),
     },
 
     {
         platform:"Linkedin",
         link:"https://www.linkedin.com/in/lucas-gabriel-ferreira/",
+        target: "_blank",
         icon: require("../../assets/icons/linkedin.png"),
     },
 
@@ -25,7 +27,7 @@ export const SocialData=[
 
     {
         platform:"Email",
-        link:"www.sddgfggsd",
+        link:"mailto:lg139826065@gmail.com",
         icon: require("../../assets/icons/gmail.png"),
     },
 

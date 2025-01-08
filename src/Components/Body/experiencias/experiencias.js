@@ -6,15 +6,29 @@ function Experiencias() {
     <div className="experiencias-container">
       <h2>Experiências Profissionais</h2>
       <div className="experiencia">
+        <h3>Desenvolvedor júnior</h3>
+        <p>WeDoo Consultoria em Informática, São Paulo, Sp | Outubro de 2024 - Atual.</p>
+        <ul>
+          <li>Levantamento de requisitos com clientes para criação de Especificações Funcionais.</li>
+          <li>Análise e desenvolvimento de novas funcionalidades em sistemas web utilizando a plataforma .NET.</li>
+          <li>Atendimento a chamados de clientes, realizando correções de bugs, suporte e desenvolvimento de projetos.</li>
+          <li>Experiência prática com VB.NET e C#.</li>
+          <li>Conhecimentos sólidos em ASP.NET, JavaScript, HTML e CSS.</li>
+          <li>Familiaridade com integrações de Web APIs e Web Services.</li> 
+          <li>Conhecimento em bancos de dados SQL Server e Oracle, incluindo criação de tabelas e queries.</li>
+          {/* Adicione mais pontos relevantes da experiência profissional */}
+        </ul>
+      </div>
+
+      <div className="experiencia">
         <h3>Analista de Suporte Computacional</h3>
         <p>RRSoft, São Paulo, Sp | Dezembro de 2022 - Maio de 2024.</p>
         <ul>
-          <li>Atendimento e Suporte Técnico aos Usuários: Proporcionava suporte técnico aos usuários dos softwares instalados pela empresa, solucionando problemas relatados de forma eficaz para assegurar o bom desempenho dos programas.
-          </li>
-          <li>Testagem de Programas: Realizava testes rigorosos em programas após o desenvolvimento e instalação, avaliando a qualidade e funcionamento para minimizar riscos de falhas e assegurar uma experiência de usuário estável.</li>
-          <li>Instalação, Configuração e Manutenção de Software e Hardware: Executava a instalação, configuração e manutenção de software e hardware, realizando testes funcionais e monitorando o desempenho dos equipamentos e sistemas para garantir a operacionalidade contínua e eficiente.
-          </li>
-          <li>Desenvolvimento em C# e .NET: Participava do desenvolvimento e manutenção de aplicações utilizando C# e .NET, contribuindo para a melhoria contínua dos sistemas internos. Consultas em MySQL: Realizava consultas e manipulações de dados em bancos de dados MySQL, suportando a extração e análise de informações essenciais para a tomada de decisões e resolução de problemas.</li>
+          <li>Suporte técnico aos usuários de software.</li>
+          <li>Testes e validações de sistemas para garantir estabilidade.</li>
+          <li>Instalação e manutenção de software e hardware.</li>
+          <li>Desenvolvimento em C# e .NET.</li>
+          <li>Consultas e manipulação de dados em MySQL.</li>
           {/* Adicione mais pontos relevantes da experiência profissional */}
         </ul>
       </div>
@@ -23,9 +37,10 @@ function Experiencias() {
         <h3>Auxiliar de estoque</h3>
         <p>Vimap, São Paulo, Sp | Novembro de 2017 - Abril de 2022 .</p>
         <ul>
-          <li>Gestão de Almoxarifado: Responsável por auxiliar no armazenamento e organização dos produtos no estoque, garantindo a correta disposição e acessibilidade dos itens.</li>
-          <li>Recebimento e Armazenagem de Mercadorias: Coordenava o recebimento das mercadorias, realizando a armazenagem de maneira eficiente para manter a integridade dos produtos e facilitar o controle do estoque.</li>
-          <li>Atendimento ao Cliente: Possuía experiência no atendimento a clientes internos e externos, fornecendo suporte eficaz e resolvendo dúvidas e problemas com agilidade.</li>
+          <li>Gestão de estoque e controle de mercadorias.</li>
+          <li>Atendimento ao cliente e suporte à equipe de vendas.</li>
+          <li>Emissão e conferência de notas fiscais.</li>
+          <li>Análise de rotas e otimização de entregas.</li>
           {/* Adicione mais pontos relevantes da experiência profissional */}
         </ul>
       </div>
@@ -44,10 +59,12 @@ function Experiencias() {
       <h2>Habilidades</h2>
       <ul className="habilidades-lista">
         <li>C#</li>
+        <li>VB.Net</li>
         <li>React</li>
         <li>JavaScript</li>
         <li>HTML5, CSS3</li>
         <li>Git</li>
+        <li>GitHub</li>
         {/* Adicione mais habilidades conforme necessário */}
       </ul>
     </div>
