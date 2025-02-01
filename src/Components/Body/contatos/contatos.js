@@ -121,33 +121,53 @@ function Contatos() {
 
       <div className="informacoes-contato">
         <h3>Informações de Contato</h3>
-        <p>Email: lg139826065@gmail.com</p>
-        <p>Telefone: (11) 94914-5048</p>
+        <p>
+    Email:{' '}
+    <a
+      href="mailto:lg139826065@gmail.com"
+      className="email-link"
+    >
+      lg139826065@gmail.com
+    </a>
+  </p>
+        <p>
+    Telefone:{' '}
+    <a
+      href="https://wa.me/5511949145048"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="whatsapp-link"
+    >
+      (11) 94914-5048
+    </a>
+  </p>
       </div>
 
       <div className="redes-sociais">
-        <h3>Redes Sociais</h3>
-        <ul>
-          <li>
-            <a
-              href="https://www.linkedin.com/in/lucas-gabriel-ferreira/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              LinkedIn
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://github.com/Lucasgabrielferreira/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </li>
-        </ul>
-      </div>
+  <h3>Redes Sociais</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.linkedin.com/in/lucas-gabriel-ferreira/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-link"
+      >
+        <i className="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </li>
+    <li>
+      <a
+        href="https://github.com/Lucasgabrielferreira/"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="social-link"
+      >
+        <i className="fab fa-github"></i> GitHub
+      </a>
+    </li>
+  </ul>
+</div>
 
       <section className="mapbox" data-mapbox>
         <figure>

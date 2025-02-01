@@ -3,35 +3,28 @@ import "./mobile.css";
 
 function Mobile({ isOpen, setIsOpen }) {
   return (
-    <div className="mobile">
-      <div className="close-icon" onClick={() => setIsOpen(!isOpen)}>
-        <i class="fi-rr-cross-circle"></i>
+    <div className={`mobile ${isOpen ? "mobile-open" : "mobile-close"}`}>
+      <div 
+        className="close-icon" 
+        role="button" 
+        aria-label="Fechar menu"
+        onClick={() => setIsOpen(false)}
+      >
+        <i className="fi-rr-cross-circle"></i>
       </div>
       <div className="mobile-options">
-
-        <div className="mobile-option">
-          <a href="#project">
-            <i class="fi-rr-edit-alt option-icon"></i> Projetos
-          </a>
-        </div>
-
-        <div className="mobile-option">
-          <a href="#skills">
-            <i class="fi-rr-laptop option-icon"></i> Experiencias
-          </a>
-        </div>
-
-        <div className="mobile-option">
-          <a href="#work">
-            <i class="fi-rr-briefcase option-icon"></i> Trabalhos
-          </a>
-        </div>
-
-        <div className="mobile-option">
-          <a href="#contact">
-            <i class="fi-rr-user option-icon"></i> Contatos
-          </a>
-        </div>
+        {[
+          { href: "#project", icon: "fi-rr-edit-alt", text: "Projetos" },
+          { href: "#skills", icon: "fi-rr-laptop", text: "Experiências" },
+          { href: "#work", icon: "fi-rr-briefcase", text: "Trabalhos" },
+          { href: "#contact", icon: "fi-rr-user", text: "Contatos" },
+        ].map((item, index) => (
+          <div className="mobile-option" key={index}>
+            <a href={item.href} onClick={() => setIsOpen(false)}>
+              <i className={`${item.icon} option-icon`}></i> {item.text}
+            </a>
+          </div>
+        ))}
       </div>
     </div>
   );

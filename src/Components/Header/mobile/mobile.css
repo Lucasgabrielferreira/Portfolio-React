@@ -1,23 +1,31 @@
-.mobile{
+.mobile {
     background-color: #040e1e;
     height: 100vh;
     width: 60vw;
-    position: absolute;
-    right: 0px;
-    top: -6px;
+    position: fixed;
+    right: -60vw; /* Oculto por padrão */
+    top: 0;
     padding: 10px;
     display: flex;
     flex-direction: column;
+    transition: right 0.3s ease-in-out; /* Animação suave */
+    box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
 }
 
-.close-icon{
+.mobile-open {
+    right: 0; /* Exibe o menu */
+}
+
+.close-icon {
     display: flex;
     justify-content: flex-end;
     font-size: 24px;
-    color: white;
+    color: #58a6ff;
+    cursor: pointer;
 }
 
-.mobile-options{
+.mobile-options {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -27,15 +35,35 @@
     height: 100%;
 }
 
-.mobile-option{
+.mobile-option {
     font-size: 24px;
     margin: 12px 0px;
     display: flex;
     color: white;
+    transition: transform 0.2s;
 }
 
-.mobile-option a{
+.mobile-option a {
     text-decoration: none;
     color: #58a6ff;
     display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mobile-option:hover {
+    transform: scale(1.05);
+}
+
+/* Melhorias para telas menores */
+@media (max-width: 768px) {
+    .mobile {
+        width: 80vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .mobile {
+        width: 100vw;
+    }
 }
