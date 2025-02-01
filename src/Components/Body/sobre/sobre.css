@@ -21,14 +21,15 @@
 
 .globe-container {
   position: relative;
-  width: 420px;
-  height: 420px;
- /* background-color: black;  Força o fundo preto no contêiner */
-  /*border-radius: 50%;  Mantém o estilo circular */
- /* overflow: hidden;
+  width: 100%;
+  max-width: 420px; /* Máxima largura para desktops */
+  height: auto; /* Ajuste automático da altura */
+  aspect-ratio: 1; /* Mantém a proporção quadrada */
+  overflow: hidden;
   display: flex;
   justify-content: center;
-  align-items: center;*/
+  align-items: center;
+  border-radius: 50%;
 }
 
 .video-background {
@@ -81,4 +82,10 @@
     background-color: #040e1e; /* Garante fundo preto por trás do vídeo */
   }
   
+    /* Ajuste responsivo para a imagem de fallback */
+    .fallback-image {
+      width: 100%;  /* Ocupa 100% da largura do contêiner */
+      height: 100%; /* Ocupa 100% da altura do contêiner */
+      object-fit: cover; /* Garante que a imagem cubra todo o espaço disponível sem distorções */
+    }
 }
