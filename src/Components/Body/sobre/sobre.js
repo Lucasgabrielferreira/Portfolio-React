@@ -23,12 +23,10 @@ function Sobre() {
             loop
             muted
             playsInline
+            preload="auto"
             style={{ width: "100%", height: "auto" }}
           >
-            <source
-              type="video/mp4"
-              src={require("../../../assets/202409200955.mp4")}
-            />
+             <source src={require("../../../assets/202409200955.mp4")} type="video/mp4" />
             Seu navegador não suporta a tag de vídeo.
           </video>
         </div>
