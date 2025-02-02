@@ -38,6 +38,7 @@
   height: 100%;
   object-fit: cover;
   background-color: transparent;
+  filter: #040e1e(90deg);
 }
 
 @media only screen and (max-width: 720px) {
