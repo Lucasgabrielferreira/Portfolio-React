@@ -1,6 +1,7 @@
 import React from "react";
 import "./sobre.css";
 import Contato from "../../comp/social-contato/contato";
+import videoSrc from "../../../assets/202409200955.mp4"; // Caminho correto do arquivo
 
 function Sobre() {
   return (
@@ -10,10 +11,10 @@ function Sobre() {
           <h1 className="title">Olá, Sou</h1>
           <span className="info-name">Lucas Gabriel Ferreira.</span>
           <p className="subtitle">
-            Sabedoria é saber o que fazer; habilidade é saber como fazer; virtude é fazer.
+          Desenvolvedor.
           </p>
-          <p>Desenvolvedor Junior</p>
-          <p>Em várias linguagens de programação.</p>
+          <p>Transformo ideias em código e desafios em soluções inovadoras.</p>
+          <p>Exploro diferentes linguagens para transformar ideias em realidade.</p>
         </div>
 
         <div className="video-container">
@@ -26,7 +27,7 @@ function Sobre() {
             preload="auto"
             style={{ width: "100%", height: "auto" }}
           >
-             <source src={require("../../../assets/202409200955.mp4")} type="video/mp4" />
+             <source src={videoSrc} type="video/mp4" />
             Seu navegador não suporta a tag de vídeo.
           </video>
         </div>

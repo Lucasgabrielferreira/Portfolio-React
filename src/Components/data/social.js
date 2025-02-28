@@ -15,13 +15,13 @@ export const SocialData=[
 
     {
         platform:"Instagram",
-        link:"www.sddgfggsd",
+        link:"https://www.instagram.com/lucas.d_oficial/",
         icon: require("../../assets/icons/instagram.png"),
     },
 
     {
         platform:"Facebook",
-        link:"www.sddgfggsd",
+        link:"https://web.facebook.com/",
         icon: require("../../assets/icons/facebook.png"),
     },
 
