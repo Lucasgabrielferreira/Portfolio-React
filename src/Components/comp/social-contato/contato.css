@@ -1,21 +1,40 @@
-.social-contact{
+.social-contact {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap; /* Permite que os ícones se movam para a próxima linha em telas pequenas */
+    padding-top: 100px; /* Aumentando o padding no topo */
+    padding-bottom: 50px; /* Espaço abaixo */
 }
 
-.social-icon-div{
+.social-icon-div {
     padding: 6px;
     cursor: pointer;
     margin: 6px;
 }
 
-.social-icon{
-    height: 40px;
+.social-icon {
+    height: 50px;
+    width: auto; /* Garante que o ícone não distorça */
 }
 
-@media only screen and (max-width: 720px){
-    .social-icon{
-        height: 32px;
+/* Responsividade para telas pequenas */
+@media only screen and (max-width: 720px) {
+    .social-icon {
+        height: 32px; /* Tamanho reduzido dos ícones em telas menores */
+    }
+    .social-contact {
+        padding-top: 30px;
+        padding-bottom: 50px; /* Espaço abaixo */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .social-icon {
+        height: 28px; /* Ícones ainda menores em telas muito pequenas */
+    }
+    .social-contact {
+        padding-top: 30px;
+        padding-bottom: 50px; /* Espaço abaixo */
     }
 }
