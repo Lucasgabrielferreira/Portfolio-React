@@ -8,7 +8,7 @@ function Experiencias() {
 
       <div className="experiencia">
         <h3>Engenheiro de software</h3>
-        <p>WeDoo Consultoria em Informática, São Paulo, Sp | Outubro de 2024 - Atual.</p>
+        <p>Evertec Brasil, São Paulo, Sp | Novrembro de 2025 - Atual.</p>
         <ul>
           <li>Especializado na personalização de soluções para o setor de previdência privada, com foco na adequação de sistemas e funcionalidades às necessidades específicas da área, garantindo conformidade com regulamentações vigentes.</li>
           <li>Desenvolvimento e implementação de melhorias em sistemas web, utilizando tecnologias como C# (MVC e Blazor Pages), com ênfase na otimização de performance, manutenção da integridade de dados e aprimoramento da experiência do usuário.</li>
@@ -23,7 +23,7 @@ function Experiencias() {
 
       <div className="experiencia">
         <h3>Desenvolvedor júnior</h3>
-        <p>WeDoo Consultoria em Informática, São Paulo, Sp | Outubro de 2024 - Atual.</p>
+        <p>WeDoo Consultoria em Informática, São Paulo, Sp | Outubro de 2024 - Novembro de 2025.</p>
         <ul>
           <li>Levantamento de requisitos com clientes para criação de Especificações Funcionais.</li>
           <li>Análise e desenvolvimento de novas funcionalidades em sistemas web utilizando a plataforma .NET.</li>
