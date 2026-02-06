@@ -10,7 +10,7 @@ function Contato() {
                 return(
                     <a href={item.link}>
                         <div className="social-icon-div">
-                            <img src={item.icon} className="social-icon"/>
+                        <img src={item.icon} alt={`Ícone de ${item.link}`} className="social-icon" />
                         </div>
                     </a>
                 )

@@ -5,6 +5,22 @@ function Experiencias() {
   return (
     <div className="experiencias-container">
       <h2>Experiências Profissionais</h2>
+
+      <div className="experiencia">
+        <h3>Engenheiro de software</h3>
+        <p>WeDoo Consultoria em Informática, São Paulo, Sp | Outubro de 2024 - Atual.</p>
+        <ul>
+          <li>Especializado na personalização de soluções para o setor de previdência privada, com foco na adequação de sistemas e funcionalidades às necessidades específicas da área, garantindo conformidade com regulamentações vigentes.</li>
+          <li>Desenvolvimento e implementação de melhorias em sistemas web, utilizando tecnologias como C# (MVC e Blazor Pages), com ênfase na otimização de performance, manutenção da integridade de dados e aprimoramento da experiência do usuário.</li>
+          <li>Uso contínuo de Inteligência Artificial (IA), incluindo GitHub Copilot e SonarQube, para acelerar o processo de desenvolvimento, otimizar a escrita de código e garantir a qualidade do código com validação constante, resultando em entregas mais rápidas e eficazes.</li>
+          <li>Atualização anual de textos regulamentares e ajustes nas rotinas de IRRF, com impacto direto nos cálculos tributários, assegurando que os sistemas estejam sempre alinhados com as mudanças fiscais e tributárias de cada ano, garantindo precisão e conformidade com as exigências legais.</li>
+          <li>Conhecimentos sólidos em ASP.NET, JavaScript, HTML e CSS.</li>
+          <li>Familiaridade com integrações de Web APIs e Web Services.</li> 
+          <li>Conhecimento em bancos de dados SQL Server e Oracle, incluindo criação de tabelas e queries.</li>
+          {/* Adicione mais pontos relevantes da experiência profissional */}
+        </ul>
+      </div>
+
       <div className="experiencia">
         <h3>Desenvolvedor júnior</h3>
         <p>WeDoo Consultoria em Informática, São Paulo, Sp | Outubro de 2024 - Atual.</p>

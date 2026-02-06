@@ -19,7 +19,7 @@ function Footer() {
           {/* Adicione mais informações de contato, se desejar 
         </div>*/}
       </div>
-      <div className="copy-right">©2025 Lucas Gabriel Ferreira. Todos os direitos reservados.</div>
+      <div className="copy-right">©{new Date().getFullYear()} Lucas Gabriel Ferreira. Todos os direitos reservados.</div>
     </footer>
   );
 }
